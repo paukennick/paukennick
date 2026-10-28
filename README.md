@@ -44,6 +44,8 @@ Most of my work is in SRE and DevSecOps: static analysis with measured precision
 
 **Code and infrastructure as code** &nbsp;
 ![Python](https://img.shields.io/badge/Python-1C1C1C?style=for-the-badge&logo=python&logoColor=F59E0B)
+![JavaScript](https://img.shields.io/badge/JavaScript-1C1C1C?style=for-the-badge&logo=javascript&logoColor=F59E0B)
+![TypeScript](https://img.shields.io/badge/TypeScript-1C1C1C?style=for-the-badge&logo=typescript&logoColor=F59E0B)
 ![pytest](https://img.shields.io/badge/pytest-1C1C1C?style=for-the-badge&logo=pytest&logoColor=F59E0B)
 ![pyright](https://img.shields.io/badge/pyright-1C1C1C?style=for-the-badge)
 ![PowerShell](https://img.shields.io/badge/PowerShell-1C1C1C?style=for-the-badge)
