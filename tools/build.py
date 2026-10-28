@@ -78,7 +78,17 @@ def banner(t):
 """
 
 
-def card(p, t):
+def icon(key, size=56, x=322, y=18):
+    """Inline assets/icons/<key>.svg (GitHub won't load files referenced from an SVG image)."""
+    import re
+    src = (ASSETS / "icons" / f"{key}.svg").read_text(encoding="utf-8")
+    body = re.sub(r"^.*?<svg[^>]*>|</svg>\s*$", "", src, flags=re.S)
+    for old in set(re.findall(r'id="([^"]+)"', body)):
+        body = body.replace(f'id="{old}"', f'id="{key}-{old}"').replace(f"url(#{old})", f"url(#{key}-{old})")
+    return f'<svg x="{x}" y="{y}" width="{size}" height="{size}" viewBox="0 0 256 256">{body}</svg>'
+
+
+def card(p, t, key=None):
     stats = "".join(
         f'<text x="{24 + i * 126}" y="188" font-family="{SANS}" font-size="26" font-weight="700" fill="{t["accent"]}">{escape(v)}</text>'
         f'<text x="{24 + i * 126}" y="210" font-family="{SANS}" font-size="12" fill="{t["muted"]}">{escape(k)}</text>'
@@ -98,6 +108,7 @@ def card(p, t):
 {pitch}
 <line x1="24" x2="376" y1="152" y2="152" stroke="{t['line']}"/>
 {stats}
+{icon(key) if key else ''}
 </svg>
 """
 
@@ -181,7 +192,7 @@ def main():
     for name, t in THEMES.items():
         out[f"banner-{name}.svg"] = banner(t)
         for key, p in PROJECTS.items():
-            out[f"card-{key}-{name}.svg"] = card(p, t)
+            out[f"card-{key}-{name}.svg"] = card(p, t, key)
     for key, p in PROJECTS.items():
         repo = SOCIAL_REPOS[key]
         out[f"social/{key}.svg"] = social(key, p, THEMES["dark"], repo)  # option A: stats, dark
