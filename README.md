@@ -50,7 +50,6 @@ Most of my work is in SRE and DevSecOps: static analysis with measured precision
 **Cloud and infra** &nbsp;
 ![AWS](https://img.shields.io/badge/AWS-1C1C1C?style=for-the-badge&logo=amazonwebservices&logoColor=F59E0B)
 ![AWS CDK](https://img.shields.io/badge/AWS_CDK-1C1C1C?style=for-the-badge&logo=amazonwebservices&logoColor=F59E0B)
-![Ansible](https://img.shields.io/badge/Ansible-1C1C1C?style=for-the-badge&logo=ansible&logoColor=F59E0B)
 ![Linux](https://img.shields.io/badge/Linux-1C1C1C?style=for-the-badge&logo=linux&logoColor=F59E0B)
 
 **Security** &nbsp;
