@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+<defs>
+  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#E2E8F0"/></pattern>
+  <radialGradient id="glow" cx="90%" cy="20%" r="60%"><stop offset="0" stop-color="#0D9488" stop-opacity=".2"/><stop offset="1" stop-color="#0D9488" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#0D9488"/><stop offset="1" stop-color="#0891B2"/></linearGradient>
+</defs>
+<rect width="1280" height="640" fill="#F8FAFC"/><rect width="1280" height="640" fill="url(#dots)"/><rect width="1280" height="640" fill="url(#glow)"/>
+<rect width="1280" height="10" fill="url(#edge)"/>
+<text x="96" y="128" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="24" letter-spacing="2" fill="#0D9488">TYPESCRIPT · iOS · ANDROID · WEB</text>
+<text x="92" y="214" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="96" font-weight="700" fill="#0F172A">Ascendra</text>
+<text x="96" y="272" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" fill="#475569">Adaptive AI-tutored certification prep.</text><text x="96" y="318" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="36" fill="#475569">Expo · Next.js · Supabase · Claude API</text>
+<line x1="96" x2="1184" y1="380" y2="380" stroke="#E2E8F0" stroke-width="2"/>
+<text x="96" y="470" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#0D9488">90</text><text x="96" y="510" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#475569">courses</text><text x="396" y="470" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#0D9488">3</text><text x="396" y="510" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#475569">platforms</text><text x="696" y="470" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700" fill="#0D9488">1/7/21</text><text x="696" y="510" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#475569">day spaced review</text>
+<text x="96" y="590" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="24" fill="#475569">github.com/paukennick/Ascendra</text>
+</svg>

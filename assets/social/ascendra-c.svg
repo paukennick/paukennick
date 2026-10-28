@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+<defs>
+  <radialGradient id="glow" cx="78%" cy="50%" r="42%"><stop offset="0" stop-color="#14B8A6" stop-opacity=".25"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+</defs>
+<rect width="1280" height="640" fill="#0F172A"/><rect width="1280" height="640" fill="url(#glow)"/>
+<rect x="0" y="0" width="10" height="640" fill="url(#edge)"/>
+<text x="96" y="200" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="22" letter-spacing="2" fill="#14B8A6">TYPESCRIPT · iOS · ANDROID · WEB</text>
+<text x="92" y="282" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="92" font-weight="700" fill="#F1F5F9">Ascendra</text>
+<text x="96" y="330" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#94A3B8">Adaptive AI-tutored certification prep.</text><text x="96" y="374" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#94A3B8">Expo · Next.js · Supabase · Claude API</text>
+<text x="96" y="560" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="22" fill="#94A3B8">github.com/paukennick/Ascendra</text>
+<g transform="translate(1000 320)"><rect x="-150" y="50" width="44" height="40" rx="8" fill="#14B8A6" fill-opacity="0.25"/><rect x="-86" y="10" width="44" height="80" rx="8" fill="#14B8A6" fill-opacity="0.43"/><rect x="-22" y="-30" width="44" height="120" rx="8" fill="#14B8A6" fill-opacity="0.61"/><rect x="42" y="-70" width="44" height="160" rx="8" fill="#14B8A6" fill-opacity="0.79"/><rect x="106" y="-110" width="44" height="200" rx="8" fill="#14B8A6" fill-opacity="0.97"/><path d="M-128 30 C-60 10 0 -40 120 -130" fill="none" stroke="#22D3EE" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round"/><circle cx="128" cy="-136" r="12" fill="#22D3EE"/><line x1="-170" x2="170" y1="92" y2="92" stroke="#1E293B" stroke-width="3"/></g>
+</svg>

@@ -128,6 +128,50 @@ def social(key, p, t, repo):
 """
 
 
+def emblem(key, t):
+    a, b, p = t["accent"], t["accent2"], t["panel"]
+    if key == "arbiter":  # shield with check inside scan rings
+        rings = "".join(f'<circle cx="0" cy="0" r="{r}" fill="none" stroke="{a}" stroke-opacity="{o}" stroke-width="2"/>'
+                        for r, o in ((150, .15), (190, .09), (230, .05)))
+        return (rings + f'<path d="M0 -112 L88 -78 V-4 C88 56 50 94 0 116 C-50 94 -88 56 -88 -4 V-78 Z" fill="{p}" '
+                f'stroke="url(#edge)" stroke-width="6" stroke-linejoin="round"/>'
+                f'<path d="M-40 0 L-12 28 L44 -30" fill="none" stroke="{a}" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>')
+    if key == "ascendra":  # rising steps = 0-4 mastery levels, with a peak marker
+        bars = "".join(f'<rect x="{-150 + i * 64}" y="{90 - h}" width="44" height="{h}" rx="8" fill="{a}" fill-opacity="{.25 + i * .18}"/>'
+                       for i, h in enumerate((40, 80, 120, 160, 200)))
+        return (bars + f'<path d="M-128 30 C-60 10 0 -40 120 -130" fill="none" stroke="{b}" stroke-width="4" stroke-dasharray="2 10" stroke-linecap="round"/>'
+                f'<circle cx="128" cy="-136" r="12" fill="{b}"/><line x1="-170" x2="170" y1="92" y2="92" stroke="{t["line"]}" stroke-width="3"/>')
+    # omni: one shared context hub, five assistants around it
+    import math
+    pts = [(160 * math.cos(math.radians(-90 + i * 72)), 160 * math.sin(math.radians(-90 + i * 72))) for i in range(5)]
+    spokes = "".join(f'<line x1="0" y1="0" x2="{x:.1f}" y2="{y:.1f}" stroke="{a}" stroke-opacity=".5" stroke-width="3"/>' for x, y in pts)
+    ring = " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+    nodes = "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="26" fill="{p}" stroke="{b}" stroke-width="4"/>' for x, y in pts)
+    return (f'<polygon points="{ring}" fill="none" stroke="{t["line"]}" stroke-width="3"/>' + spokes + nodes +
+            f'<circle cx="0" cy="0" r="54" fill="{p}" stroke="url(#edge)" stroke-width="6"/>'
+            f'<text x="0" y="12" text-anchor="middle" font-family="{MONO}" font-size="34" font-weight="700" fill="{a}">.ai</text>')
+
+
+def social_emblem(key, p, t, repo):
+    pitch = "".join(
+        f'<text x="96" y="{330 + i * 44}" font-family="{SANS}" font-size="32" fill="{t["muted"]}">{escape(s)}</text>'
+        for i, s in enumerate(p["pitch"]))
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+<defs>
+  <radialGradient id="glow" cx="78%" cy="50%" r="42%"><stop offset="0" stop-color="{t['accent']}" stop-opacity=".25"/><stop offset="1" stop-color="{t['accent']}" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="{t['accent']}"/><stop offset="1" stop-color="{t['accent2']}"/></linearGradient>
+</defs>
+<rect width="1280" height="640" fill="{t['bg']}"/><rect width="1280" height="640" fill="url(#glow)"/>
+<rect x="0" y="0" width="10" height="640" fill="url(#edge)"/>
+<text x="96" y="200" font-family="{MONO}" font-size="22" letter-spacing="2" fill="{t['accent']}">{escape(p['tag'])}</text>
+<text x="92" y="282" font-family="{SANS}" font-size="{80 if len(p['title']) > 10 else 92}" font-weight="700" fill="{t['text']}">{escape(p['title'])}</text>
+{pitch}
+<text x="96" y="560" font-family="{MONO}" font-size="22" fill="{t['muted']}">github.com/{escape(repo)}</text>
+<g transform="translate(1000 320)">{emblem(key, t)}</g>
+</svg>
+"""
+
+
 SOCIAL_REPOS = {"arbiter": "paukennick/arbiter", "ascendra": "paukennick/Ascendra", "omni": "paukennick/OmniEngineering"}
 
 
@@ -139,7 +183,10 @@ def main():
         for key, p in PROJECTS.items():
             out[f"card-{key}-{name}.svg"] = card(p, t)
     for key, p in PROJECTS.items():
-        out[f"social/{key}.svg"] = social(key, p, THEMES["dark"], SOCIAL_REPOS[key])
+        repo = SOCIAL_REPOS[key]
+        out[f"social/{key}.svg"] = social(key, p, THEMES["dark"], repo)  # option A: stats, dark
+        out[f"social/{key}-b.svg"] = social(key, p, THEMES["light"], repo)  # option B: stats, light
+        out[f"social/{key}-c.svg"] = social_emblem(key, p, THEMES["dark"], repo)  # option C: emblem
     for rel, svg in out.items():
         (ASSETS / rel).write_text(svg, encoding="utf-8", newline="\n")
     print(f"wrote {len(out)} files under {ASSETS}")
