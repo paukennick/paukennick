@@ -8,26 +8,26 @@
 @media (prefers-reduced-motion: reduce) { .cursor, .ring { animation: none } }
 </style>
 <defs>
-  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#1E293B"/></pattern>
-  <radialGradient id="glow" cx="84%" cy="50%" r="45%"><stop offset="0" stop-color="#14B8A6" stop-opacity=".22"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></radialGradient>
-  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#242424"/></pattern>
+  <radialGradient id="glow" cx="84%" cy="50%" r="45%"><stop offset="0" stop-color="#F59E0B" stop-opacity=".22"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#F97316"/></linearGradient>
   <clipPath id="frame"><rect width="1200" height="300" rx="18"/></clipPath>
 </defs>
 <g clip-path="url(#frame)">
-  <rect width="1200" height="300" fill="#0F172A"/>
+  <rect width="1200" height="300" fill="#141414"/>
   <rect width="1200" height="300" fill="url(#dots)"/>
   <rect width="1200" height="300" fill="url(#glow)"/>
   <rect width="1200" height="4" fill="url(#edge)"/>
 </g>
-<rect x=".5" y=".5" width="1199" height="299" rx="18" fill="none" stroke="#1E293B"/>
-<text x="64" y="72" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="16" fill="#14B8A6">~/paukennick</text>
-<text x="62" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="#F1F5F9">Nick Pauken</text>
-<text x="64" y="178" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="600" fill="#14B8A6">SRE · DevSecOps · Greater Seattle Area</text>
-<text x="64" y="214" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#94A3B8">Assurance tooling for AI-written code: measured precision, traceable requirements.</text>
-<text x="64" y="260" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="16" fill="#94A3B8"><tspan fill="#14B8A6">$</tspan> arbiter scan .  <tspan fill="#22D3EE"># every check that didn’t run is named</tspan><tspan class="cursor" fill="#14B8A6"> ▍</tspan></text>
-<circle class="ring" cx="1010" cy="150" r="96" fill="none" stroke="#14B8A6" stroke-width="1.5"/>
-<circle class="ring r2" cx="1010" cy="150" r="96" fill="none" stroke="#14B8A6" stroke-width="1.5"/>
-<circle class="ring r3" cx="1010" cy="150" r="96" fill="none" stroke="#14B8A6" stroke-width="1.5"/>
-<path d="M1010 78 L1066 100 V148 C1066 186 1042 210 1010 224 C978 210 954 186 954 148 V100 Z" fill="#111B2E" stroke="url(#edge)" stroke-width="4" stroke-linejoin="round"/>
-<path d="M984 150 L1002 168 L1038 130" fill="none" stroke="#14B8A6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x=".5" y=".5" width="1199" height="299" rx="18" fill="none" stroke="#2E2E2E"/>
+<text x="64" y="72" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="16" fill="#F59E0B">~/paukennick</text>
+<text x="62" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="700" fill="#F5F5F4">Nick Pauken</text>
+<text x="64" y="178" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="600" fill="#F59E0B">SRE · DevSecOps · Greater Seattle Area</text>
+<text x="64" y="214" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#A8A29E">Assurance tooling for AI-written code: measured precision, traceable requirements.</text>
+<text x="64" y="260" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="16" fill="#A8A29E"><tspan fill="#F59E0B">$</tspan> arbiter scan .  <tspan fill="#F97316"># every check that didn’t run is named</tspan><tspan class="cursor" fill="#F59E0B"> ▍</tspan></text>
+<circle class="ring" cx="1010" cy="150" r="96" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+<circle class="ring r2" cx="1010" cy="150" r="96" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+<circle class="ring r3" cx="1010" cy="150" r="96" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+<path d="M1010 78 L1066 100 V148 C1066 186 1042 210 1010 224 C978 210 954 186 954 148 V100 Z" fill="#1C1C1C" stroke="url(#edge)" stroke-width="4" stroke-linejoin="round"/>
+<path d="M984 150 L1002 168 L1038 130" fill="none" stroke="#F59E0B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

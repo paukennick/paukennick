@@ -43,25 +43,25 @@ Most of my work is in SRE and DevSecOps: static analysis with measured precision
 ## Toolbox
 
 **Languages** &nbsp;
-![Python](https://img.shields.io/badge/Python-0F172A?style=for-the-badge&logo=python&logoColor=14B8A6)
-![Go](https://img.shields.io/badge/Go-0F172A?style=for-the-badge&logo=go&logoColor=14B8A6)
-![TypeScript](https://img.shields.io/badge/TypeScript-0F172A?style=for-the-badge&logo=typescript&logoColor=14B8A6)
+![Python](https://img.shields.io/badge/Python-1C1C1C?style=for-the-badge&logo=python&logoColor=F59E0B)
+![Go](https://img.shields.io/badge/Go-1C1C1C?style=for-the-badge&logo=go&logoColor=F59E0B)
+![TypeScript](https://img.shields.io/badge/TypeScript-1C1C1C?style=for-the-badge&logo=typescript&logoColor=F59E0B)
 
 **Cloud and infra** &nbsp;
-![AWS](https://img.shields.io/badge/AWS-0F172A?style=for-the-badge&logo=amazonwebservices&logoColor=14B8A6)
-![AWS CDK](https://img.shields.io/badge/AWS_CDK-0F172A?style=for-the-badge&logo=amazonwebservices&logoColor=14B8A6)
-![Ansible](https://img.shields.io/badge/Ansible-0F172A?style=for-the-badge&logo=ansible&logoColor=14B8A6)
-![Linux](https://img.shields.io/badge/Linux-0F172A?style=for-the-badge&logo=linux&logoColor=14B8A6)
+![AWS](https://img.shields.io/badge/AWS-1C1C1C?style=for-the-badge&logo=amazonwebservices&logoColor=F59E0B)
+![AWS CDK](https://img.shields.io/badge/AWS_CDK-1C1C1C?style=for-the-badge&logo=amazonwebservices&logoColor=F59E0B)
+![Ansible](https://img.shields.io/badge/Ansible-1C1C1C?style=for-the-badge&logo=ansible&logoColor=F59E0B)
+![Linux](https://img.shields.io/badge/Linux-1C1C1C?style=for-the-badge&logo=linux&logoColor=F59E0B)
 
 **Security** &nbsp;
-![Semgrep](https://img.shields.io/badge/Semgrep-0F172A?style=for-the-badge&logo=semgrep&logoColor=14B8A6)
-![CWE Top 25](https://img.shields.io/badge/CWE_Top_25-0F172A?style=for-the-badge&logo=owasp&logoColor=14B8A6)
+![Semgrep](https://img.shields.io/badge/Semgrep-1C1C1C?style=for-the-badge&logo=semgrep&logoColor=F59E0B)
+![CWE Top 25](https://img.shields.io/badge/CWE_Top_25-1C1C1C?style=for-the-badge&logo=owasp&logoColor=F59E0B)
 
 **App stack** &nbsp;
-![Next.js](https://img.shields.io/badge/Next.js-0F172A?style=for-the-badge&logo=nextdotjs&logoColor=14B8A6)
-![Expo](https://img.shields.io/badge/Expo-0F172A?style=for-the-badge&logo=expo&logoColor=14B8A6)
-![Supabase](https://img.shields.io/badge/Supabase-0F172A?style=for-the-badge&logo=supabase&logoColor=14B8A6)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0F172A?style=for-the-badge&logo=postgresql&logoColor=14B8A6)
+![Next.js](https://img.shields.io/badge/Next.js-1C1C1C?style=for-the-badge&logo=nextdotjs&logoColor=F59E0B)
+![Expo](https://img.shields.io/badge/Expo-1C1C1C?style=for-the-badge&logo=expo&logoColor=F59E0B)
+![Supabase](https://img.shields.io/badge/Supabase-1C1C1C?style=for-the-badge&logo=supabase&logoColor=F59E0B)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1C1C1C?style=for-the-badge&logo=postgresql&logoColor=F59E0B)
 
 ## How I work
 
@@ -70,4 +70,4 @@ Most of my work is in SRE and DevSecOps: static analysis with measured precision
 
 ## Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nicholaspauken-0F172A?style=for-the-badge&logo=linkedin&logoColor=14B8A6&labelColor=0F172A&color=14B8A6)](https://www.linkedin.com/in/nicholaspauken)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nicholaspauken-1C1C1C?style=for-the-badge&logo=linkedin&logoColor=F59E0B&labelColor=1C1C1C&color=F59E0B)](https://www.linkedin.com/in/nicholaspauken)

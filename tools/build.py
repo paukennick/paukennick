@@ -14,10 +14,10 @@ SANS = "'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, 
 MONO = "ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace"
 
 THEMES = {
-    "dark": dict(bg="#0F172A", panel="#111B2E", line="#1E293B", grid="#1E293B",
-                 text="#F1F5F9", muted="#94A3B8", accent="#14B8A6", accent2="#22D3EE"),
-    "light": dict(bg="#F8FAFC", panel="#FFFFFF", line="#E2E8F0", grid="#E2E8F0",
-                  text="#0F172A", muted="#475569", accent="#0D9488", accent2="#0891B2"),
+    "dark": dict(bg="#141414", panel="#1C1C1C", line="#2E2E2E", grid="#242424",
+                 text="#F5F5F4", muted="#A8A29E", accent="#F59E0B", accent2="#F97316"),
+    "light": dict(bg="#FAFAF9", panel="#FFFFFF", line="#E7E5E4", grid="#E7E5E4",
+                  text="#1C1917", muted="#57534E", accent="#D97706", accent2="#EA580C"),
 }
 
 PROJECTS = {
