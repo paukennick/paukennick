@@ -42,25 +42,45 @@ Most of my work is in SRE and DevSecOps: static analysis with measured precision
 
 ## Toolbox
 
-**Languages** &nbsp;
+**Code and infrastructure as code** &nbsp;
 ![Python](https://img.shields.io/badge/Python-1C1C1C?style=for-the-badge&logo=python&logoColor=F59E0B)
-![Go](https://img.shields.io/badge/Go-1C1C1C?style=for-the-badge&logo=go&logoColor=F59E0B)
-![TypeScript](https://img.shields.io/badge/TypeScript-1C1C1C?style=for-the-badge&logo=typescript&logoColor=F59E0B)
+![pytest](https://img.shields.io/badge/pytest-1C1C1C?style=for-the-badge&logo=pytest&logoColor=F59E0B)
+![pyright](https://img.shields.io/badge/pyright-1C1C1C?style=for-the-badge)
+![PowerShell](https://img.shields.io/badge/PowerShell-1C1C1C?style=for-the-badge)
+![AWS CDK](https://img.shields.io/badge/AWS_CDK-1C1C1C?style=for-the-badge)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-1C1C1C?style=for-the-badge)
 
-**Cloud and infra** &nbsp;
-![AWS](https://img.shields.io/badge/AWS-1C1C1C?style=for-the-badge&logo=amazonwebservices&logoColor=F59E0B)
-![AWS CDK](https://img.shields.io/badge/AWS_CDK-1C1C1C?style=for-the-badge&logo=amazonwebservices&logoColor=F59E0B)
+**AWS (incl. GovCloud)** &nbsp;
+![ECS / Fargate](https://img.shields.io/badge/ECS_%2F_Fargate-1C1C1C?style=for-the-badge)
+![Aurora PostgreSQL](https://img.shields.io/badge/Aurora_PostgreSQL-1C1C1C?style=for-the-badge&logo=postgresql&logoColor=F59E0B)
+![Neptune](https://img.shields.io/badge/Neptune-1C1C1C?style=for-the-badge)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-1C1C1C?style=for-the-badge&logo=opensearch&logoColor=F59E0B)
+![Lambda](https://img.shields.io/badge/Lambda-1C1C1C?style=for-the-badge)
+![Bedrock](https://img.shields.io/badge/Bedrock-1C1C1C?style=for-the-badge)
+![IAM / KMS](https://img.shields.io/badge/IAM_%2F_KMS-1C1C1C?style=for-the-badge)
+![Route 53](https://img.shields.io/badge/Route_53-1C1C1C?style=for-the-badge)
+
+**DevSecOps** &nbsp;
+![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI%2FCD-1C1C1C?style=for-the-badge&logo=gitlab&logoColor=F59E0B)
+![OIDC federation](https://img.shields.io/badge/OIDC_federation-1C1C1C?style=for-the-badge)
+![cdk-nag](https://img.shields.io/badge/cdk--nag-1C1C1C?style=for-the-badge)
+![Checkov](https://img.shields.io/badge/Checkov-1C1C1C?style=for-the-badge)
+![cfn-lint](https://img.shields.io/badge/cfn--lint-1C1C1C?style=for-the-badge)
+![Bandit](https://img.shields.io/badge/Bandit-1C1C1C?style=for-the-badge)
+![Gitleaks](https://img.shields.io/badge/Gitleaks-1C1C1C?style=for-the-badge)
+![Semgrep](https://img.shields.io/badge/Semgrep-1C1C1C?style=for-the-badge)
+
+**Compliance** &nbsp;
+![NIST 800-53](https://img.shields.io/badge/NIST_800--53-1C1C1C?style=for-the-badge)
+![RMF](https://img.shields.io/badge/RMF-1C1C1C?style=for-the-badge)
+![FedRAMP](https://img.shields.io/badge/FedRAMP-1C1C1C?style=for-the-badge)
+
+**Systems and delivery** &nbsp;
 ![Linux](https://img.shields.io/badge/Linux-1C1C1C?style=for-the-badge&logo=linux&logoColor=F59E0B)
-
-**Security** &nbsp;
-![Semgrep](https://img.shields.io/badge/Semgrep-1C1C1C?style=for-the-badge&logo=semgrep&logoColor=F59E0B)
-![CWE Top 25](https://img.shields.io/badge/CWE_Top_25-1C1C1C?style=for-the-badge&logo=owasp&logoColor=F59E0B)
-
-**App stack** &nbsp;
-![Next.js](https://img.shields.io/badge/Next.js-1C1C1C?style=for-the-badge&logo=nextdotjs&logoColor=F59E0B)
-![Expo](https://img.shields.io/badge/Expo-1C1C1C?style=for-the-badge&logo=expo&logoColor=F59E0B)
-![Supabase](https://img.shields.io/badge/Supabase-1C1C1C?style=for-the-badge&logo=supabase&logoColor=F59E0B)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1C1C1C?style=for-the-badge&logo=postgresql&logoColor=F59E0B)
+![Windows Server](https://img.shields.io/badge/Windows_Server-1C1C1C?style=for-the-badge)
+![TCP/IP networking](https://img.shields.io/badge/TCP%2FIP_networking-1C1C1C?style=for-the-badge)
+![Jira](https://img.shields.io/badge/Jira-1C1C1C?style=for-the-badge&logo=jira&logoColor=F59E0B)
+![Confluence](https://img.shields.io/badge/Confluence-1C1C1C?style=for-the-badge&logo=confluence&logoColor=F59E0B)
 
 ## How I work
 
