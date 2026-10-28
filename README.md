@@ -4,7 +4,7 @@
 </picture>
 
 I build tools that check AI-written code and report how much they could actually check.
-Most of my work is in SRE and DevSecOps: static analysis with measured precision, requirements you can trace from spec to test, and systems instrumented before they're tuned.
+Most of my work is in SRE and DevSecOps: static analysis with measured precision, and requirements you can trace from spec to test.
 
 - **Currently:** hardening Arbiter's rule packs against a labelled corpus of AI-written services.
 - **Open to:** SRE, DevSecOps and platform security roles in the Seattle area or remote.
@@ -53,11 +53,6 @@ Most of my work is in SRE and DevSecOps: static analysis with measured precision
 ![Ansible](https://img.shields.io/badge/Ansible-0F172A?style=for-the-badge&logo=ansible&logoColor=14B8A6)
 ![Linux](https://img.shields.io/badge/Linux-0F172A?style=for-the-badge&logo=linux&logoColor=14B8A6)
 
-**Observability** &nbsp;
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-0F172A?style=for-the-badge&logo=opentelemetry&logoColor=14B8A6)
-![Prometheus](https://img.shields.io/badge/Prometheus-0F172A?style=for-the-badge&logo=prometheus&logoColor=14B8A6)
-![Jaeger](https://img.shields.io/badge/Jaeger-0F172A?style=for-the-badge&logo=jaeger&logoColor=14B8A6)
-
 **Security** &nbsp;
 ![Semgrep](https://img.shields.io/badge/Semgrep-0F172A?style=for-the-badge&logo=semgrep&logoColor=14B8A6)
 ![CWE Top 25](https://img.shields.io/badge/CWE_Top_25-0F172A?style=for-the-badge&logo=owasp&logoColor=14B8A6)
@@ -72,7 +67,6 @@ Most of my work is in SRE and DevSecOps: static analysis with measured precision
 
 - **Measure before claiming.** Arbiter keeps a per-rule precision ledger and withholds its grade when it couldn't check enough of the code.
 - **Trace every change to a requirement.** Requirement IDs tie code, tests and docs together, so drift shows up in review instead of in production.
-- **Instrument first.** OpenTelemetry traces and Prometheus metrics come before tuning anything.
 
 ## Contact
 
