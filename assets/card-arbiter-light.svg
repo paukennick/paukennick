@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="236" viewBox="0 0 400 236" role="img" aria-label="Arbiter: Static analysis for AI-written code. Names every check it didn’t run.">
+<defs>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#0D9488"/><stop offset="1" stop-color="#0891B2"/></linearGradient>
+  <clipPath id="frame"><rect width="400" height="236" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#frame)"><rect width="400" height="236" fill="#FFFFFF"/><rect width="400" height="4" fill="url(#edge)"/></g>
+<rect x=".5" y=".5" width="399" height="235" rx="14" fill="none" stroke="#E2E8F0"/>
+<text x="24" y="38" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#0D9488">PYTHON · APACHE-2.0</text>
+<text x="24" y="76" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#0F172A">Arbiter</text>
+<text x="24" y="108" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#475569">Static analysis for AI-written code.</text><text x="24" y="130" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#475569">Names every check it didn’t run.</text>
+<line x1="24" x2="376" y1="152" y2="152" stroke="#E2E8F0"/>
+<text x="24" y="188" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#0D9488">21</text><text x="24" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#475569">native probes</text><text x="150" y="188" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#0D9488">280</text><text x="150" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#475569">rules</text><text x="276" y="188" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#0D9488">10</text><text x="276" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#475569">control frameworks</text>
+</svg>

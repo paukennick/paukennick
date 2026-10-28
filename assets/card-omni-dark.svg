@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="236" viewBox="0 0 400 236" role="img" aria-label="OmniEngineering: Repo-local engineering workspace that keeps AI assistants on one context.">
+<defs>
+  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <clipPath id="frame"><rect width="400" height="236" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#frame)"><rect width="400" height="236" fill="#111B2E"/><rect width="400" height="4" fill="url(#edge)"/></g>
+<rect x=".5" y=".5" width="399" height="235" rx="14" fill="none" stroke="#1E293B"/>
+<text x="24" y="38" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="1" fill="#14B8A6">FORK · CONTRIBUTOR</text>
+<text x="24" y="76" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#F1F5F9">OmniEngineering</text>
+<text x="24" y="108" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#94A3B8">Repo-local engineering workspace that</text><text x="24" y="130" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#94A3B8">keeps AI assistants on one context.</text>
+<line x1="24" x2="376" y1="152" y2="152" stroke="#1E293B"/>
+<text x="24" y="188" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#14B8A6">5</text><text x="24" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#94A3B8">AI assistants</text><text x="150" y="188" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#14B8A6">3.10+</text><text x="150" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#94A3B8">Python</text><text x="276" y="188" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#14B8A6">0</text><text x="276" y="210" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#94A3B8">MCP servers needed</text>
+</svg>
