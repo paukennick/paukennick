@@ -3,7 +3,6 @@
   <img alt="Nick Pauken, SRE and DevSecOps: assurance tooling for AI-written code" src="assets/banner-light.svg" width="100%">
 </picture>
 
-I build tools that check AI-written code and report how much they could actually check.
 Most of my work is in SRE and DevSecOps: static analysis with measured precision, and requirements you can trace from spec to test.
 
 - **Currently:** hardening Arbiter's rule packs against a labelled corpus of AI-written services.
